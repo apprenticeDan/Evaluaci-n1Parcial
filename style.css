@@ -1,0 +1,144 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    /*flex-direction: row;*/
+    background-color: black;
+    color: #f6f6f6;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.titulo_destacado{
+    color: #dfe8eb;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: space-between;
+    /*margin: 10%;*/
+    gap: 40px;
+}
+
+.centreado{
+    width: 90%;
+    margin:0 auto;
+}
+
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    /*width: 90%;*/
+}
+
+.contenido2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 44, 42);
+    /*width: 615px;*/
+}
+
+.contenido3{
+    display: flex;
+    flex-direction: column;
+    /*width: 615px;*/
+}
+
+.prC_titulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 26px;
+}
+
+.prC_texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.prC_titulo3{
+    font-family: "Krona One", sans-serif;
+    font-size: 26px;
+    align-self: center;
+}
+
+.prC_texto3{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    align-self: center;
+}
+
+
+.prC_enlaces{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista_enlaces {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+._enlaces_link{
+    
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 15px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: rgb(243, 240, 240);
+    font-family: "Montserrat", sans-serif;
+    justify-content: space-around;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+}
+
+.img_grid{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex_img{
+    padding: 5px;
+    width: 0.5;
+    height: 0.5;
+    margin: 10px;
+    
+    line-height: 100px;
+    /*color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;*/
+}
+
+.grid_img1{
+    /*justify-content: flex-end;*/
+    /*-webkit-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+}
+
+.grid_img0{
+    /*justify-content: flex-end;*/
+    /*-webkit-flex-wrap: wrap;*/
+    align-items: stretch;
+    flex-wrap: wrap;
+}
